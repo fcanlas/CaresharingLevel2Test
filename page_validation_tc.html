@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://docs.google.com/forms/d/12f7orObPipIDCZOOQsIH9_U6kGgEVOGFhd5qgO0myEo/viewform?fbzx=-5294445733973195140" />
+<title>page_validation_tc</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">page_validation_tc</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/forms/d/12f7orObPipIDCZOOQsIH9_U6kGgEVOGFhd5qgO0myEo/viewform?fbzx=-5294445733973195140</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>Test Form</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-required-asterisk</td>
+	<td>exact:* Required</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-q-title</td>
+	<td>exact:Name *</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=entry_1563791636</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.required-message</td>
+	<td>This is a required question</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='ss-form']/ol/div[2]/div/div/label/div</td>
+	<td>exact:Age *</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=entry_930637752</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='ss-form']/ol/div[2]/div/div/div[2]</td>
+	<td>This is a required question</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='ss-form']/ol/div[3]/div/div/label/div</td>
+	<td>exact:Gender *</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.ss-choice-label</td>
+	<td>Male</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=group_351010933_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='ss-form']/ol/div[3]/div/div/ul/li[2]/label/span[2]</td>
+	<td>Female</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=group_351010933_2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=ss-submit</td>
+	<td>Continue »</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=ss-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=entry_1563791636</td>
+	<td>ABCDE</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=entry_930637752</td>
+	<td>31</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=group_351010933_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=ss-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>Test Form</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-q-title</td>
+	<td>Sports (Men)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.ss-choice-label</td>
+	<td>Basketball</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=group_1887354367_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='ss-form']/ol/div[2]/div/div/ul/li[2]/label/span[2]</td>
+	<td>Wrestling</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=group_1887354367_2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='ss-form']/ol/div[2]/div/div/ul/li[3]/label/span[2]</td>
+	<td>Running</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=group_1887354367_3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='ss-form']/ol/div[2]/div/div/ul/li[4]/label/span[2]</td>
+	<td>MMA</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=group_1887354367_4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=back</td>
+	<td>« Back</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>name=back</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=ss-submit</td>
+	<td>Submit</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=ss-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=group_1887354367_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=ss-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>Thanks!</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1.ss-confirmation</td>
+	<td>Test Form</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-resp-message</td>
+	<td>Your response has been recorded.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=See previous responses</td>
+	<td>See previous responses</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=See previous responses</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Submit another response</td>
+	<td>Submit another response</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Submit another response</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Submit another response</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=entry_1563791636</td>
+	<td>ABCDEF</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=entry_930637752</td>
+	<td>32</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=group_351010933_2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=ss-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>Test Form</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-q-title</td>
+	<td>Sports (Women)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.ss-choice-label</td>
+	<td>Volleyball</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=group_175266393_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='ss-form']/ol/div[2]/div/div/ul/li[2]/label/span[2]</td>
+	<td>Swimming</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=group_175266393_2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='ss-form']/ol/div[2]/div/div/ul/li[3]/label/span[2]</td>
+	<td>Running</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=group_175266393_3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='ss-form']/ol/div[2]/div/div/ul/li[4]/label/span[2]</td>
+	<td>Gymnastics</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=group_175266393_4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=back</td>
+	<td>« Back</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>name=back</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=ss-submit</td>
+	<td>Submit</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=ss-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=ss-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>Thanks!</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1.ss-confirmation</td>
+	<td>Test Form</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-resp-message</td>
+	<td>Your response has been recorded.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=See previous responses</td>
+	<td>See previous responses</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=See previous responses</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Submit another response</td>
+	<td>Submit another response</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Submit another response</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
